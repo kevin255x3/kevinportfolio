@@ -1,0 +1,48 @@
+/* Home Page styles */
+
+.perspective-container {
+    perspective: 1000px;
+}
+
+.perspective-text {
+    transform: rotateY(-35deg);
+    transform-origin: left center;
+}
+
+.header-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Adjust spacing */
+.main-content {
+    flex-grow: 1;
+    margin-top: -8;
+    /* Reduce top margin between navbar and content */
+}
+
+/* About page */
+/* .panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+} */
+
+.flowerbg {
+    filter: none !important;
+    mix-blend-mode: normal !important;
+    background-blend-mode: normal !important;
+    opacity: 1 !important;
+}
+
+.bg-portPurple {
+    filter: none;
+    mix-blend-mode: normal;
+    opacity: 1;
+}
